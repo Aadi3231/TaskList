@@ -1,3 +1,4 @@
+/*
 let val;
 
 val = document;
@@ -20,4 +21,48 @@ scriptsArr.forEach(function(script){
    console.log(script.getAttribute('src')); 
 });
 
-console.log(val);
+console.log(val); */
+
+//////////////////////////////////////////////////////////////////////////
+    
+console.log(document.getElementById('task-title').id);
+console.log(document.getElementById('task-title').className);
+
+document.getElementById('task-title').style.background = 'Black';
+document.getElementById('task-title').style.color = 'white';
+document.getElementById('task-title').style.padding = '5px'; 
+
+document.getElementById('task-title').textContent = 'Task List';
+document.getElementById('task-title').innerText = 'My Tasks';
+document.getElementById('task-title').innerHTML = '<span style="color:red">My Tasks</span>';
+
+console.log(document.querySelector('#task-title'));
+console.log(document.querySelector('.card-title'));
+console.log(document.querySelector('h5'));
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
